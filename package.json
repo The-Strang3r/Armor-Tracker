@@ -1,0 +1,24 @@
+{
+  "name": "armor-maker",
+  "version": "1.0.0",
+  "description": "Allows for tracking of armor creation",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.yourdomain.armoreditor",
+    "productName": "Armor Editor",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
